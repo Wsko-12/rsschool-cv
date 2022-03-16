@@ -8,6 +8,75 @@
     <title>Vlad Vasko | CV</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="title">Vlad Vasko</h1>
+        <hr></hr>
+        <h2>Contacts</h2>
+        <ul>
+            <li><span class="list-title">Location:</span> Minsk, Belarus</li>
+            <li><span class="list-title">Phone:</span> +375(29) 750-61-20</li>
+            <li><span class="list-title">Email:</span> vaskovladislav@gmail.com</li>
+            <li><span class="list-title">GitHub:</span> <a class="link" href="https://github.com/Wsko-12">wsko-12</a></li>
+            <li><span class="list-title">Codewars:</span> <a class="link" href="https://www.codewars.com/users/Wsko-12">wsko-12</a></li>
+
+        </ul>
+        <br/>
+        <h2>About Me</h2>
+        <p class="text">
+            I started programming at the beginning of quarantine. Most of all I was engaged in the creation of web game dev. 
+            Fast learner. Used to work as a dental technician. A lot of work was related to 3D programs so 
+            I have a very good understanding of 3D. My previous job brought me up as a perfectionist therefore 
+            I am very attentive in every case. I want my hobby to become a profession.
+        </p>
+
+        <br/>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>WebGL(basic knowledge), Three.js</li>
+            <li>Node.js (basic knowledge), socket.io, MongoDB</li>
+            <li>Blender, ExoCad, Adobe Photoshop, Adobe Illustrator, Figma, Cinema 4D</li>
+        </ul>
+
+        <br/>
+        <h2>Code Example</h2>
+        <h4><a class="link" href="https://www.codewars.com/kata/5552101f47fc5178b1000050">Playing with digits</a> from Codewars.</h4>
+        <pre>
+            <span class="pre-key">function</span> <span class="pre-opange">digPow</span>(<span class="pre-opange">n</span>, <span class="pre-opange">p</span>){
+                <span class="pre-key">let</span> number = 0;
+                n.<span class="pre-key">toString</span>().<span class="pre-key">split</span>(<span class="pre-opange">''</span>).<span class="pre-key">forEach</span>((<span class="pre-opange">item</span>,<span class="pre-opange">i</span>)=>{
+                  number += (+item)**(p+i)
+                });
+                <span class="pre-key">return</span> (number/n) % 1 <span class="pre-opange">?</span> -1 <span class="pre-opange">:</span> (number/n)
+              }
+        </pre>
+
+        <br/>
+        <h2>Education</h2>
+        <dl>
+            <dt>Belarusian State Medical College</dt>
+                <dd>Medical rehabilitation specialty</dd>
+            <dt>Post-secondary school GoWork.pl</dt>
+                <dd>Dental technician</dd>
+        </dl>
+
+        <br/>
+        <h2>Languages</h2>
+        <ul>
+            <li>English - A2</li>
+            <li>Polish - C1</li>
+            <li>Russian - Native</li>
+        </ul>
+
+        <br/>
+        <h2>My projects</h2>
+        <ul>
+            <li><a href="https://kapitalisttest.herokuapp.com/howtoplay.html" class="link">Hexallion digital board game</a></li>
+            <li><a href="http://blockbuild.herokuapp.com/VERSION.html" class="link">BlockBuild game like Minecraft</a></li>
+        </ul>
+    </div>
 </body>
 </html>
