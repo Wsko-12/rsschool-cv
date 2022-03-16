@@ -39,5 +39,7 @@ function digPow(n, p){
 - English - A2
 - Polish - C1
 - Russian - Native
-
+## My projects
+- [Hexallion digital board game](https://kapitalisttest.herokuapp.com/howtoplay.html)
+- [BlockBuild game like Minecraft](http://blockbuild.herokuapp.com/VERSION.html)
 
